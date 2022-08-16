@@ -63,6 +63,7 @@ function renderCarousel(arrPro, idBody) {
     <h3>${arrPro[i].name}</h3>
     <p>${arrPro[i].shortDescription}</p>
     <button class="btn-buy"> <a href="./detail.html?productid=${arrPro[i].id}">Buy now</button>
+
   </div>
 </div>
   
@@ -74,4 +75,4 @@ function renderCarousel(arrPro, idBody) {
 
 window.onload = function () {
   getProduct();
-};  
+};
