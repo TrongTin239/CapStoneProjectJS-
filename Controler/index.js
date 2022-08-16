@@ -24,7 +24,7 @@ export function renderProduct(arrPro, idBody) {
       <p class="descript">${arrPro[i].shortDescription}</p>
     </div>
     <div class="col-button">
-      <button class="btn-buy"> <a href="./Detail.html?productid=${arrPro[i].id}">Buy now</a></button>
+      <button class="btn-buy"> <a href="./detail.html?productid=${arrPro[i].id}">Buy now</a></button>
       <button class="btn-price">${arrPro[i].price}$</button>
     </div>
   </div>
